@@ -1,1 +1,0 @@
-# UI-QC-ISN-HES-DEPLOY
