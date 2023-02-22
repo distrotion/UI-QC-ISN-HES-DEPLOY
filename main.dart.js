@@ -91079,7 +91079,7 @@ a9=p.h(a4,"FG_CHARG")!=null?J.k(p.h(a4,"FG_CHARG")):""
 b0=p.h(a4,"MATERIAL")!=null?J.k(p.h(a4,"MATERIAL")):""
 b1=A.M9(a2,a8,a3,b0,a6,a7,e,a5,p.h(a4,"QTY")!=null?J.k(p.h(a4,"QTY")):"",a9)
 if(p.h(a4,"PIC")!=null){b2=J.k(p.h(a4,"PIC")).split(",")
-if(b2.length!==0)b1.z=b2[1]
+if(b2.length>1)b1.z=b2[1]
 else b1.z=""}for(p=J.av(i),e=J.av(h),a2=J.av(j),b3=!1,b4=!1,b5=!1,b6=!1,b7=!1,b8=!1,b9=!1,c0=!1,c1=!1,c2=!1,c3=!1,c4=!1,c5=!1,c6=0;c6<a0.length;++c6)for(c7=0;c7<a.length;++c7)if(o.h(l,a[c7])!=null)if(J.c(o.h(l,a[c7]),a0[c6].a)!=null){for(a1=0;a1<a2.gn(j);++a1){a3=J.k(J.c(a2.h(j,a1),"masterID"))
 a5=a0[c6]
 if(a3===a5.c){a5.d=J.k(J.c(a2.h(j,a1),"METHOD"))
