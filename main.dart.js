@@ -28985,7 +28985,7 @@ k=A.bX(l.buffer,l.byteOffset,l.byteLength)
 j=B.fi.gli().cB(k)
 e=t.N
 s=9
-return A.M(A.aq(null).ab("http://127.0.0.1:16700/goPDF",A.au(["PIC",j,"PO",a0],e,e),t.z),$async$vY)
+return A.M(A.aq(null).ab("http://172.23.10.40:16700/goPDF",A.au(["PIC",j,"PO",a0],e,e),t.z),$async$vY)
 case 9:i=a2
 s=i.d===200?10:11
 break
