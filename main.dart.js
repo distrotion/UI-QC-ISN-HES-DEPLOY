@@ -94967,8 +94967,8 @@ b1.as=J.e(a3==null?"":a3)
 b3=!(c8<6||c8>17)||!1
 b4=!(c9<6||c9>17)||!1
 b5=!(d0<6||d0>17)||!1}}else if(a3==="ITEMs-60407f6193e8d91950acb5cf"){if(J.i(J.aw(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1")),1)){a3=a0[c6]
-a3.r="<= 7 \xb5m. & <60% of\ncompound Layer"
-a3.z="<= 5\xb5m."
+a3.r="\u2264 7 \xb5m. & \u226460% of\ncompound Layer"
+a3.z="\u2264 5\xb5m."
 c8=A.aZ(A.b_(J.c(J.c(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1"),0),"PIC1data")))
 c9=A.aZ(A.b_(J.c(J.c(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1"),0),"PIC2data")))
 d0=A.aZ(A.b_(J.c(J.c(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1"),0),"PIC3data")))
@@ -94981,7 +94981,7 @@ b6=!a3||!1
 b7=!a3||!1
 b8=!a3||!1}}else if(a3==="ITEMs-5f19a97cfe12be0020dbd3bc"){if(J.i(J.aw(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1")),4)){a3=a0[c6]
 a3.r="500-680 Hmv"
-a3.z="550-680 Hmv"
+a3.z="550-650 Hmv"
 c8=A.aZ(A.b_(J.c(J.c(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1"),0),"PO3")))
 c9=A.aZ(A.b_(J.c(J.c(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1"),1),"PO3")))
 d0=A.aZ(A.b_(J.c(J.c(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1"),2),"PO3")))
@@ -95003,7 +95003,7 @@ a0[c6].at=B.d.P(d0,0)
 a0[c6].ax=B.d.P((c8+c9+d0)/3,0)
 c2=!(c8<26||c8>60)||!1
 c3=!(c9<26||c9>60)||!1
-c4=!(d0<26||d0>60)||!1}}else if(a3==="ITEMs-6040817293e8d91950acb5d5")if(J.aJC(J.aw(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1")),1)){a0[c6].r="<= 0.07 ppm"
+c4=!(d0<26||d0>60)||!1}}else if(a3==="ITEMs-6040817293e8d91950acb5d5")if(J.aJC(J.aw(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1")),1)){a0[c6].r="\u2264 0.07 ppm"
 d1=A.aZ(A.b_(J.c(J.c(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1"),0),"PO3")))
 if(d1<=0.03)a0[c6].Q="< 0.03"
 else a0[c6].Q=B.d.P(A.aZ(A.b_(J.c(J.c(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1"),0),"PO3"))),2)
