@@ -94981,7 +94981,7 @@ b6=!a3||!1
 b7=!a3||!1
 b8=!a3||!1}}else if(a3==="ITEMs-5f19a97cfe12be0020dbd3bc"){if(J.i(J.aw(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1")),4)){a3=a0[c6]
 a3.r="500-680 Hmv"
-a3.z="550-650 Hmv"
+a3.z="550-660 Hmv"
 c8=A.aZ(A.b_(J.c(J.c(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1"),0),"PO3")))
 c9=A.aZ(A.b_(J.c(J.c(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1"),1),"PO3")))
 d0=A.aZ(A.b_(J.c(J.c(J.c(J.c(o.h(l,a[c7]),a0[c6].a),"PSC1"),2),"PO3")))
