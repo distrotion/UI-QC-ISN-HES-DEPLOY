@@ -94624,11 +94624,13 @@ d4=b6.h(c5,"FG_CHARG")!=null?J.e(b6.h(c5,"FG_CHARG")):""
 d5=b6.h(c5,"MATERIAL")!=null?J.e(b6.h(c5,"MATERIAL")):""
 d6=b6.h(c5,"QTY")!=null?J.e(b6.h(c5,"QTY")):""
 g9=A.N1(c8,d3,c9,d5,d1,d2,b7,d0,d6,d4,b6.h(c5,"UNITSAP")!=null?J.e(b6.h(c5,"UNITSAP")):"PCS")
-s=b6.h(c5,"ReferFrom")!=null?7:8
+s=J.e(b6.h(c5,"ReferFrom"))!==h5?7:8
 break
-case 7:s=9
+case 7:s=b6.h(c5,"ReferFrom")!=null?9:10
+break
+case 9:s=11
 return A.M(A.aq(null).ab("http://172.23.10.40:16700/INS_Report_PDF",A.au(["PO",J.e(b6.h(c5,"ReferFrom"))],h2,h2),h3),$async$p9)
-case 9:d7=h8
+case 11:d7=h8
 if(d7.d===200){d8=d7.a
 h2=J.an(d8)
 h3=h2.h(d8,"DATA")
@@ -94636,7 +94638,7 @@ h3=h3==null?null:J.e(J.c(J.c(h3,0),"PARTNAME"))
 g9.ay=h3==null?"":h3
 h2=h2.h(d8,"DATA")
 h2=h2==null?null:J.e(J.c(J.c(h2,0),"PART"))
-g9.ch=h2==null?"":h2}case 8:if(J.c(p,"Pimg")!=null)if(J.c(J.c(p,"Pimg"),"P1")!=null){d9=J.e(J.c(J.c(p,"Pimg"),"P1")).split(",")
+g9.ch=h2==null?"":h2}case 10:case 8:if(J.c(p,"Pimg")!=null)if(J.c(J.c(p,"Pimg"),"P1")!=null){d9=J.e(J.c(J.c(p,"Pimg"),"P1")).split(",")
 if(d9.length>1)g9.z=d9[1]
 else g9.z=""}for(n=0,h2=J.an(c3),h3=J.an(c2),b6=J.an(c0),b7=t._N,c8=J.an(c1),e0=0;n<J.aw(J.c(p,"FINAL"));++n){if(J.i(J.c(J.c(J.c(p,"FINAL"),n),"RESULTFORMAT"),"Text"))for(e1=0;e1<c7.length;++e1)if(h0.h(b8,c7[e1])!=null)if(J.c(h0.h(b8,c7[e1]),J.c(J.c(J.c(p,"FINAL"),n),"ITEMs"))!=null){e2=A.l(J.c(J.c(p,"FINAL"),n))
 e3=$.jL
