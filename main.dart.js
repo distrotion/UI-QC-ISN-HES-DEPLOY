@@ -95156,15 +95156,15 @@ A.a7g.prototype={}
 A.jQ.prototype={}
 A.u_.prototype={
 hN(a){return this.a3F(a)},
-a3F(d7){var s=0,r=A.I(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6
-var $async$hN=A.J(function(d8,d9){if(d8===1)return A.F(d9,r)
-while(true)switch(s){case 0:d6=new A.kk(B.kc,A.Nb("","","","","","","","","",""))
+a3F(d2){var s=0,r=A.I(t.H),q=this,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1
+var $async$hN=A.J(function(d3,d4){if(d3===1)return A.F(d4,r)
+while(true)switch(s){case 0:d1=new A.kk(B.kc,A.Nb("","","","","","","","","",""))
 A.Nb("","","","","","","","","","")
 p=t.N
 o=t.z
 s=2
-return A.M(A.aq(null).a8("http://172.23.10.40:16700/INS_Report_PDF",A.as(["PO",d7],p,p),o),$async$hN)
-case 2:n=d9
+return A.M(A.aq(null).a8("http://172.23.10.40:16700/INS_Report_PDF",A.as(["PO",d2],p,p),o),$async$hN)
+case 2:n=d4
 s=n.d===200?3:5
 break
 case 3:m=n.a
@@ -95206,13 +95206,13 @@ b0=l.h(a6,"CUSLOT")!=null?J.e(l.h(a6,"CUSLOT")):""
 b1=l.h(a6,"FG_CHARG")!=null?J.e(l.h(a6,"FG_CHARG")):""
 b2=l.h(a6,"MATERIAL")!=null?J.e(l.h(a6,"MATERIAL")):""
 b3=A.Nb(a4,b0,a5,b2,a8,a9,c,a7,l.h(a6,"QTY")!=null?J.e(l.h(a6,"QTY")):"",b1)
-s=J.e(l.h(a6,"ReferFrom"))!==d7?12:13
+s=J.e(l.h(a6,"ReferFrom"))!==d2?12:13
 break
 case 12:s=l.h(a6,"ReferFrom")!=null?14:15
 break
 case 14:s=16
 return A.M(A.aq(null).a8("http://172.23.10.40:16700/INS_Report_PDF",A.as(["PO",J.e(l.h(a6,"ReferFrom"))],p,p),o),$async$hN)
-case 16:b4=d9
+case 16:b4=d4
 if(b4.d===200){b5=b4.a
 p=J.ak(b5)
 o=p.h(b5,"DATA")
@@ -95223,82 +95223,87 @@ p=p==null?null:J.e(J.b(J.b(p,0),"PART"))
 b3.ch=p==null?"":p}case 15:case 13:p=J.ak(h)
 if(p.h(h,"Pimg")!=null)if(J.b(p.h(h,"Pimg"),"P1")!=null){b6=J.e(J.b(p.h(h,"Pimg"),"P1")).split(",")
 if(b6.length>1)b3.z=b6[1]
-else b3.z=""}for(o=J.ak(g),l=J.ak(i),b7=!1,b8=!1,b9=!1,c0=!1,c1=!1,c2=!1,c3=!1,c4=!1,c5=!1,c6=!1,c7=!1,c8=!1,c9=!1,d0=0;d0<a2.length;++d0)for(d1=0;d1<a1.length;++d1)if(f.h(k,a1[d1])!=null)if(J.b(f.h(k,a1[d1]),a2[d0].a)!=null){for(a3=0;a3<l.gn(i);++a3){c=J.e(J.b(l.h(i,a3),"masterID"))
-a4=a2[d0]
+else b3.z=""}for(o=J.ak(g),l=J.ak(i),b7=!1,b8=!1,b9=!1,c0=!1,c1=!1,c2=!1,c3=!1,c4=!1,c5=!1,c6=0;c6<a2.length;++c6)for(c7=0;c7<a1.length;++c7)if(f.h(k,a1[c7])!=null)if(J.b(f.h(k,a1[c7]),a2[c6].a)!=null){for(a3=0;a3<l.gn(i);++a3){c=J.e(J.b(l.h(i,a3),"masterID"))
+a4=a2[c6]
 if(c===a4.c){a4.d=J.e(J.b(l.h(i,a3),"METHOD"))
-break}}for(a3=0;a3<J.ar(p.h(h,"FINAL"));++a3)if(J.i(J.b(J.b(p.h(h,"FINAL"),a3),"ITEMs"),a2[d0].a)){a2[d0].e=J.e(J.b(J.b(p.h(h,"FINAL"),a3),"SCMARK"))
-a2[d0].ay=J.e(J.b(J.b(p.h(h,"FINAL"),a3),"LOAD"))
-if(J.e(J.b(J.b(p.h(h,"FINAL"),a3),"FREQUENCY"))==="100% Check")a2[d0].f=J.e(J.b(J.b(p.h(h,"FINAL"),a3),"FREQUENCY"))
-else a2[d0].f=B.e.a2(J.aC(J.e(J.b(J.b(p.h(h,"FINAL"),a3),"PCS"))," "),J.e(J.b(J.b(p.h(h,"FINAL"),a3),"FREQUENCY")))
-a2[d0].x=J.e(J.b(J.b(p.h(h,"FINAL"),a3),"SPECIFICATIONve"))
-break}for(a3=0;a3<o.gn(g);++a3){c=a2[d0].x
+break}}for(a3=0;a3<J.ar(p.h(h,"FINAL"));++a3)if(J.i(J.b(J.b(p.h(h,"FINAL"),a3),"ITEMs"),a2[c6].a)){a2[c6].e=J.e(J.b(J.b(p.h(h,"FINAL"),a3),"SCMARK"))
+a2[c6].ay=J.e(J.b(J.b(p.h(h,"FINAL"),a3),"LOAD"))
+if(J.e(J.b(J.b(p.h(h,"FINAL"),a3),"FREQUENCY"))==="100% Check")a2[c6].f=J.e(J.b(J.b(p.h(h,"FINAL"),a3),"FREQUENCY"))
+else a2[c6].f=B.e.a2(J.aC(J.e(J.b(J.b(p.h(h,"FINAL"),a3),"PCS"))," "),J.e(J.b(J.b(p.h(h,"FINAL"),a3),"FREQUENCY")))
+a2[c6].x=J.e(J.b(J.b(p.h(h,"FINAL"),a3),"SPECIFICATIONve"))
+break}for(a3=0;a3<o.gn(g);++a3){c=a2[c6].x
 a4=c.length
 if(A.cO(c,"SPECIFICATION-",0)){c=J.e(J.b(o.h(g,a3),"masterID"))
-a4=a2[d0]
+a4=a2[c6]
 if(c==a4.x){a4.w=J.e(J.b(o.h(g,a3),"SPECIFICATION"))
-a2[d0].y=J.e(J.b(o.h(g,a3),"SPECIFICATION"))
-break}}}for(a3=0;a3<J.ar(p.h(h,"FINAL"));++a3)if(J.i(J.b(J.b(p.h(h,"FINAL"),a3),"ITEMs"),a2[d0].a)){c=a2[d0].a
-if(c==="ITEMs-5f19a922fe12be0020dbd3ba"){if(J.i(J.ar(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1")),1)){c=a2[d0]
+a2[c6].y=J.e(J.b(o.h(g,a3),"SPECIFICATION"))
+break}}}for(a3=0;a3<J.ar(p.h(h,"FINAL"));++a3)if(J.i(J.b(J.b(p.h(h,"FINAL"),a3),"ITEMs"),a2[c6].a)){c=a2[c6].a
+if(c==="ITEMs-5f19a922fe12be0020dbd3ba"){if(J.i(J.ar(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1")),1)){c=a2[c6]
 c.r="6-17 \xb5m."
 c.z="8.0-15.5 \xb5m."
-d2=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),0),"PIC1data")))
-d3=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),0),"PIC2data")))
-d4=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),0),"PIC3data")))
-a2[d0].Q=B.c.L(d2,1)
-a2[d0].as=B.c.L(d3,1)
-a2[d0].at=B.c.L(d4,1)
-a2[d0].ax=B.c.L((d2+d3+d4)/3,1)
-c=J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),0),"PIC1")
+c8=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),0),"PIC1data")))
+c9=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),0),"PIC2data")))
+d0=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),0),"PIC3data")))
+a2[c6].Q=B.c.L(c8,1)
+a2[c6].as=B.c.L(c9,1)
+a2[c6].at=B.c.L(d0,1)
+a2[c6].ax=B.c.L((c8+c9+d0)/3,1)
+c=J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),0),"PIC1")
 b3.Q=J.e(c==null?"":c)
-c=J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),0),"PIC2")
+c=J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),0),"PIC2")
 b3.as=J.e(c==null?"":c)
-b7=!(d2<6||d2>17)||!1
-b8=!(d3<6||d3>17)||!1
-b9=!(d4<6||d4>17)||!1}}else if(c==="ITEMs-60407f6193e8d91950acb5cf"){if(J.i(J.ar(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1")),1)){c=a2[d0]
+b7=!(c8<6||c8>17)||!1
+b8=!(c9<6||c9>17)||!1
+b9=!(d0<6||d0>17)||!1}}else if(c==="ITEMs-60407f6193e8d91950acb5cf"){if(J.i(J.ar(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1")),1)){c=a2[c6]
 c.r="\u2264 7 \xb5m. & \u226460% of\ncompound Layer"
 c.z="\u2264 5\xb5m."
-d2=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),0),"PIC1data")))
-d3=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),0),"PIC2data")))
-d4=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),0),"PIC3data")))
-a2[d0].Q=B.c.L(d2,1)
-a2[d0].as=B.c.L(d3,1)
-a2[d0].at=B.c.L(d4,1)
-a2[d0].ax=B.c.L((d2+d3+d4)/3,1)
-c=d2>7
+c8=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),0),"PIC1data")))
+c9=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),0),"PIC2data")))
+d0=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),0),"PIC3data")))
+a2[c6].Q=B.c.L(c8,1)
+a2[c6].as=B.c.L(c9,1)
+a2[c6].at=B.c.L(d0,1)
+a2[c6].ax=B.c.L((c8+c9+d0)/3,1)
+c=c8>7
 c0=!c||!1
 c1=!c||!1
-c2=!c||!1}}else if(c==="ITEMs-5f19a97cfe12be0020dbd3bc"){if(J.i(J.ar(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1")),4)){c=a2[d0]
+c2=!c||!1}}else if(c==="ITEMs-5f19a97cfe12be0020dbd3bc"){if(J.i(J.ar(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1")),4)){c=a2[c6]
 c.r="500-680 Hmv"
 c.z="550-660 Hmv"
-d2=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),0),"PO3")))
-d3=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),1),"PO3")))
-d4=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),2),"PO3")))
-a2[d0].Q=B.c.L(d2,0)
-a2[d0].as=B.c.L(d3,0)
-a2[d0].at=B.c.L(d4,0)
-a2[d0].ax=B.c.L((d2+d3+d4)/3,0)
-c3=!(d2<500||d2>680)||!1
-c4=!(d3<500||d3>680)||!1
-c5=!(d4<500||d4>680)||!1}}else if(c==="ITEMs-6040810993e8d91950acb5d4"){if(J.i(J.ar(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1")),4)){c=a2[d0]
+c8=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),0),"PO3")))
+c9=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),1),"PO3")))
+d0=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),2),"PO3")))
+a2[c6].Q=B.c.L(c8,0)
+a2[c6].as=B.c.L(c9,0)
+a2[c6].at=B.c.L(d0,0)
+a2[c6].ax=B.c.L((c8+c9+d0)/3,0)
+c3=!(c8<500||c8>680)||!1
+c4=!(c9<500||c9>680)||!1
+c5=!(d0<500||d0>680)||!1}}else if(c==="ITEMs-6040810993e8d91950acb5d4"){if(J.i(J.ar(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1")),4)){c=a2[c6]
 c.r="26-60 HSC"
 c.z="30-58"
-d2=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),0),"PO3")))
-d3=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),1),"PO3")))
-d4=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),2),"PO3")))
-a2[d0].Q=B.c.L(d2,0)
-a2[d0].as=B.c.L(d3,0)
-a2[d0].at=B.c.L(d4,0)
-a2[d0].ax=B.c.L((d2+d3+d4)/3,0)
-c6=!(d2<26||d2>60)||!1
-c7=!(d3<26||d3>60)||!1
-c8=!(d4<26||d4>60)||!1}}else if(c==="ITEMs-6040817293e8d91950acb5d5")if(J.a6o(J.ar(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1")),1)){a2[d0].r="\u2264 0.07 ppm"
-d5=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),0),"PO3")))
-if(d5<=0.03)a2[d0].Q="< 0.03"
-else a2[d0].Q=B.c.L(A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[d1]),a2[d0].a),"PSC1"),0),"PO3"))),2)
-c9=!(d5>0.07)||!1}break}}if(b7&&b8&&b9&&c0&&c1&&c2&&c3&&c4&&c5&&c6&&c7&&c8&&c9)b3.ax="PASSED"
+c8=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),0),"PO3")))
+c9=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),1),"PO3")))
+d0=A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),2),"PO3")))
+a2[c6].Q=B.c.L(c8,0)
+a2[c6].as=B.c.L(c9,0)
+a2[c6].at=B.c.L(d0,0)
+a2[c6].ax=B.c.L((c8+c9+d0)/3,0)}}else if(c==="ITEMs-6040817293e8d91950acb5d5")if(J.a6o(J.ar(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1")),1)){a2[c6].r="\u2264 0.07 ppm"
+if(A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),0),"PO3")))<=0.03)a2[c6].Q="< 0.03"
+else a2[c6].Q=B.c.L(A.aF(A.aH(J.b(J.b(J.b(J.b(f.h(k,a1[c7]),a2[c6].a),"PSC1"),0),"PO3"))),2)}break}}if(b7)if(b8)if(b9)if(c0)if(c1)if(c2)if(c3)if(c4)if(c5)p=!0
+else p=!1
+else p=!1
+else p=!1
+else p=!1
+else p=!1
+else p=!1
+else p=!1
+else p=!1
+else p=!1
+if(p)b3.ax="PASSED"
 else b3.ax="NO PASSED"
-d6.b=b3
-d6.a=a2
+d1.b=b3
+d1.a=a2
 s=10
 break
 case 11:A.eG($.eU.T(),t.C).d0(new A.cT("Error","ORDER IS NOT ACT",B.bY))
@@ -95308,7 +95313,7 @@ case 8:A.eG($.eU.T(),t.C).d0(new A.cT("Error","ORDER IS WRONG",B.bY))
 case 7:s=4
 break
 case 5:A.eG($.eU.T(),t.C).d0(new A.cT("Error","Connection have some problem",B.bY))
-case 4:q.d0(d6)
+case 4:q.d0(d1)
 return A.G(null,r)}})
 return A.H($async$hN,r)},
 j6(){var s=0,r=A.I(t.H),q=this
