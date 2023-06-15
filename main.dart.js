@@ -97541,8 +97541,10 @@ b=$.aTQ
 a=$.aTF
 a0=$.aim
 a1=$.t8
-a2=B.e.D(a1,"Compound")
-a1=B.e.D(a1,"Porous")
+if(!B.e.D(a1,"Compound"))a2=!0
+else a2=!0
+if(!B.e.D(a1,"Porous"))a1=!0
+else a1=!0
 a3=$.aTT
 a4=A.al(a3).i("bO<1>")
 A.aO(new A.bO(a3,a4),!0,a4.i("b_.E"))
@@ -97674,7 +97676,7 @@ A.Dg.prototype={
 Z(){return new A.ZS(B.q)}}
 A.ZS.prototype={
 q(a){var s=null
-return A.a9(A.W(A.a([A.ix(new A.az0(this),40,$.jm,s,!1,!1,s,new A.az1(),"value",$.kh,s),new A.cq($.Ez,100,200,s),new A.oI(new A.az2(a),s)],t.p),B.h,B.eA,B.i,s),100,1000)}}
+return A.a9(A.W(A.a([A.ix(new A.az0(this),40,$.jm,!1,!1,!1,s,new A.az1(),"value",$.kh,s),new A.cq($.Ez,100,200,s),new A.oI(new A.az2(a),s)],t.p),B.h,B.eA,B.i,s),100,1000)}}
 A.az0.prototype={
 $1(a){this.a.V(new A.az_(!1))},
 $S:2}
@@ -97692,7 +97694,7 @@ A.Dh.prototype={
 Z(){return new A.ZT(B.q)}}
 A.ZT.prototype={
 q(a){var s=null
-return A.a9(A.W(A.a([A.ix(new A.az4(this),40,$.jm,s,!1,!1,s,new A.az5(),"value",$.ki,s),new A.cq($.EA,100,200,s),new A.oI(new A.az6(a),s)],t.p),B.h,B.eA,B.i,s),100,1000)}}
+return A.a9(A.W(A.a([A.ix(new A.az4(this),40,$.jm,!1,!1,!1,s,new A.az5(),"value",$.ki,s),new A.cq($.EA,100,200,s),new A.oI(new A.az6(a),s)],t.p),B.h,B.eA,B.i,s),100,1000)}}
 A.az4.prototype={
 $1(a){this.a.V(new A.az3(!1))},
 $S:2}
@@ -97710,7 +97712,7 @@ A.Di.prototype={
 Z(){return new A.ZU(B.q)}}
 A.ZU.prototype={
 q(a){var s=null
-return A.a9(A.W(A.a([A.ix(new A.az8(this),40,$.jm,s,!1,!1,s,new A.az9(),"value",$.kj,s),new A.cq($.EB,100,200,s),new A.oI(new A.aza(a),s)],t.p),B.h,B.eA,B.i,s),100,1000)}}
+return A.a9(A.W(A.a([A.ix(new A.az8(this),40,$.jm,!1,!1,!1,s,new A.az9(),"value",$.kj,s),new A.cq($.EB,100,200,s),new A.oI(new A.aza(a),s)],t.p),B.h,B.eA,B.i,s),100,1000)}}
 A.az8.prototype={
 $1(a){this.a.V(new A.az7(!1))},
 $S:2}
@@ -97728,7 +97730,7 @@ A.Dj.prototype={
 Z(){return new A.ZV(B.q)}}
 A.ZV.prototype={
 q(a){var s=null
-return A.a9(A.W(A.a([A.ix(new A.azc(this),40,$.jm,s,!1,!1,s,new A.azd(),"value",$.kk,s),new A.cq($.EC,100,200,s),new A.oI(new A.aze(a),s)],t.p),B.h,B.eA,B.i,s),100,1000)}}
+return A.a9(A.W(A.a([A.ix(new A.azc(this),40,$.jm,!1,!1,!1,s,new A.azd(),"value",$.kk,s),new A.cq($.EC,100,200,s),new A.oI(new A.aze(a),s)],t.p),B.h,B.eA,B.i,s),100,1000)}}
 A.azc.prototype={
 $1(a){this.a.V(new A.azb(!1))},
 $S:2}
